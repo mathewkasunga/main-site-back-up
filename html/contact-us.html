@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/mystyle.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <a href="https://2learnwp.brookhavencollege.edu/Nas/" target="_blank">My WordPress</a>
+  <title>Contact Us</title>
+</head>
+<body>
+    <nav class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact-us.html">Contact Us</a>
+    </nav>
+<div class="w3-panel w3-round-small w3-light-blue w3-card-4">
+    <h1 class="blog">Nasir Jones Better Known as NAS</h1> <!-- first-level heading -->    
+</div>
+
+<div class="w3-card-4">
+  <form class="contactForm" method="POST" action="mailto:mathewkasunga@hotmail.com">
+  <fieldset>
+    <legend>Input Information</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" class="w3-input" required>
+
+    <br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="8" cols="50" class="w3-input" required></textarea>
+
+    <br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" class="w3-input" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" class="w3-input">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other" class="w3-input">
+    <label for="other">Other</label>
+
+    <br>
+
+    <label>Interests:</label>
+    <input type="checkbox" id="programming" name="interests[]" value="programming" class="w3-input">
+    <label for="programming">Programming</label>
+    <input type="checkbox" id="design" name="interests[]" value="design" class="w3-input">
+    <label for="design">Design</label>
+    <input type="checkbox" id="gaming" name="interests[]" value="gaming" class="w3-input">
+    <label for="gaming">Gaming</label>
+
+    <br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country" class="w3-input" required>
+      <option value="">Select</option>
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="uk">UK</option>
+      <option value="other">Other</option>
+    </select>
+
+    <br>
+
+    <input type="submit" value="Submit" class="w3-input">
+    <input type="reset" value="Reset" class="w3-input">
+  </fieldset>
+</form>
+
+</div>
+
+  <footer>
+    <nav>
+        <a href="index.html" class="w3-btn">Home</a>
+        <a href="blog.html" class="w3-btn">Blog</a>
+        <a href="contact-us.html" class="w3-btn">Contact Us</a>
+        <a href="https://www.dallascollege.edu/" class="w3-btn">Dallas College Website</a>
+        <a href="mailto:webmaster@myblog.com" class="w3-btn">Email Webmaster</a>
+    </nav>
+</footer>
+
+</body>
+</html>
